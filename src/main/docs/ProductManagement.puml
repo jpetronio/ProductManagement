@@ -1,0 +1,29 @@
+@startuml
+(*) --> "Product Management API call"
+if "Is Valid Auth String?" then
+-->[yes]  ===B1===
+--> "Add
+    Product"
+-->"QUERY OR UPDATE DATABASE"
+===B1=== --> "Update
+              Product"
+-->"QUERY OR UPDATE DATABASE"
+===B1=== --> "Delete Product
+              By Id"
+
+-->"QUERY OR UPDATE DATABASE"
+===B1=== --> "Find By
+             Product Name"
+-->"QUERY OR UPDATE DATABASE"
+if "Is Error?" then
+-->[yes] "Return HTTP Error Codes :
+         400,500"
+else
+-->[no] "Return Record / HTTP Code 200"
+endif
+else
+-->[no] "Return HTTP Error
+         Code 401"
+endif
+-->(*)
+@enduml

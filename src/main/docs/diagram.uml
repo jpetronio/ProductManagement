@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="229.0" y="568.0">com.maybank.exam.utility.ModelMapper</node>
+    <node x="0.0" y="710.0">com.maybank.exam.service.SecurityService</node>
+    <node x="465.0" y="318.0">com.maybank.exam.models.Merchant</node>
+    <node x="0.0" y="318.0">com.maybank.exam.controller.ProductManagementApi</node>
+    <node x="0.0" y="0.0">com.maybank.exam.models.ProductDetailsDTO</node>
+    <node x="210.0" y="0.0">com.maybank.exam.models.Product</node>
+    <node x="572.0" y="710.0">com.maybank.exam.repository.MerchantRepository</node>
+    <node x="530.0" y="568.0">com.maybank.exam.repository.ProductRepository</node>
+    <node x="0.0" y="568.0">com.maybank.exam.models.ProductCategory</node>
+    <node x="306.0" y="710.0">com.maybank.exam.repository.ProductCategoryRepository</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0378486055776892" x="755.2034548944338" y="528.1535508637237" />
+  <SelectedNodes>
+    <node>com.maybank.exam.repository.ProductRepository</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
